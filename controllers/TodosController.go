@@ -11,9 +11,7 @@ import (
 ////////////////////////////////////////////
 // Todos controller
 ////////////////////////////////////////////
-type TodosController struct {
-	todo *models.Todo
-}
+type TodosController struct{}
 
 // Get all todos list
 func (tc *TodosController) Index(c *gin.Context) {
